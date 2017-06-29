@@ -1,0 +1,68 @@
+// banner
+.banner
+  display flex
+  height calc(100vh - 51px)
+  a:hover
+    color #fff
+  .banner__content
+    flex-grow 1
+    display flex
+    flex-direction column
+    justify-content center
+    padding-left 3.125rem
+    h2
+      text-transform uppercase
+      font-size 3rem
+      width 420px
+      color #fff
+  .banner__sidebar
+    width 255px
+    display flex
+    flex-direction column
+    &-item
+      margin 1px 0
+      flex-grow 1
+      background rgba(255, 255, 255, .07)
+      color smoth-base-color
+      display flex
+      align-items center
+      justify-content center
+      h3
+        font-weight 300
+        font-size 1em
+        color #fff
+
+// price
+.price-detais
+  margin 15px 0
+  text-transform uppercase
+  color strong-base-color
+  display flex
+  .prefix
+    align-self flex-end
+    margin-bottom 15px
+    font-size 1.25rem
+  .price
+    font-size 6.25rem
+    font-weight bold
+  .sufix
+    display flex
+    flex-direction column
+    justify-content space-around
+    margin 10px 0
+    .cents
+      font-size 3.125rem
+    .period
+      font-size 1rem
+
+// plan-description
+
+  .plan-description
+    color smoth-base-color
+    text-transform uppercase
+    font-size .8rem
+    .bold
+      color #fff
+      font-weight bold
+  .banner__msg
+    margin-top 20px
